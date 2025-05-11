@@ -1,0 +1,26 @@
+.greeting {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.greeting span {
+  font-family: "Orbitron", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.logout {
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: #e6b333;
+  color: white;
+  cursor: pointer;
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+}
+
+.logout:hover {
+  background-color: #d6a32e;
+}

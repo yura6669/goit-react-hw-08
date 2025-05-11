@@ -1,13 +1,12 @@
 .container {
   display: flex;
   flex-direction: row;
-  border: 3px solid;
   border-radius: 10px;
   gap: 40px;
   align-items: center;
   justify-content: center;
   padding: 20px;
-  min-width: 400px;
+  background-color: #1c1e21;
 }
 
 .container > ul > li {
@@ -28,18 +27,54 @@
   font-weight: 700;
 }
 
-.button {
-  margin-top: 10px;
+.btns {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.buttonUpdate {
   padding: 10px;
   border-radius: 5px;
   border: none;
   font-size: 20px;
   font-weight: 700;
+  color: white;
+  background-color: #e6b333;
 }
 
-.button:hover,
-.button:focus {
-  background-color: #007bff;
+.buttonDelete {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  font-size: 20px;
+  font-weight: 700;
+  background-color: #e63946;
+}
+
+.buttonUpdate:hover,
+.buttonUpdate:focus {
+  background-color: #d6a833;
+  cursor: pointer;
+}
+
+.buttonDelete:hover,
+.buttonDelete:focus {
+  background-color: #d62839;
   color: white;
   cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .btns {
+    width: 100%;
+    flex-direction: row;
+    gap: 0;
+    justify-content: space-evenly;
+  }
 }

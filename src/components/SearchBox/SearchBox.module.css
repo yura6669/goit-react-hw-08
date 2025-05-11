@@ -3,19 +3,32 @@
   flex-direction: column;
   max-width: 500px;
   margin: 0 auto;
+  margin-top: 50px;
   margin-bottom: 30px;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    width: 100%;
+    padding: 0 20px;
+  }
 }
 
 .container > label {
   margin: 0 0 5px 0;
   text-align: left;
-  font-size: 24px;
+  font-size: 20px;
+  font-weight: 500;
 }
 
 .container > input {
-  padding: 10px;
-  border-radius: 5px;
+  width: 100%;
+  padding: 7px;
   border: none;
+  border-radius: 6px;
+  background-color: #1c1e21;
+  border-bottom: 3px solid #34383e;
+  color: white;
 }
 
 .container > input::placeholder {
@@ -25,5 +38,5 @@
 .container > input:focus,
 .container > input:active {
   outline: none;
-  border: 2px solid #007bff;
+  border: 2px solid #e6b333;
 }

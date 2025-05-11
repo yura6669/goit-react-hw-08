@@ -4,8 +4,18 @@
 }
 
 body {
-  background-color: black;
+  background-color: #34383e;
   color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 30px #1c1e21 inset !important;
+  -webkit-text-fill-color: white !important;
 }
 
 p {
@@ -13,5 +23,14 @@ p {
 }
 
 svg {
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   margin: 0;
 }

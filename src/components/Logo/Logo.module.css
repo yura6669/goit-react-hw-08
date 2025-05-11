@@ -1,0 +1,10 @@
+.logo {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.logo span {
+  font-family: "Orbitron", sans-serif;
+  font-weight: 700;
+  color: #e6b333;
+}

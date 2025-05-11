@@ -1,0 +1,35 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: calc(100vh - 68px);
+  align-items: center;
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    width: 100%;
+    padding: 0 20px;
+  }
+}
+
+.title {
+  font-size: 48px;
+  text-align: center;
+  font-weight: 500;
+}
+
+.title span {
+  font-family: "Orbitron", sans-serif;
+  color: #e6b333;
+}
+
+.description {
+  font-size: 20px;
+  text-align: center;
+  margin-top: 20px;
+  font-weight: 500;
+  color: #e6b333;
+}
